@@ -18,33 +18,8 @@ function About() {
         />
       </Head>
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
-        <div className="hidden">
-          <p className="px-6">
-            It has been indeed a pleasure to be the professor In-Charge of the
-            Hackathon and Coding Club of BIT Sindri. The organization has been
-            aiming to impart knowledge and guidance to the students of the
-            college that put their interests into the fields of Computer
-            Science, Development, and Designing. The club has been successfully
-            been providing the proper guidance, information, and help to the
-            people who ask for it. The club has many members that work
-            selflessly for the events that the club organizes and for providing
-            the best. The club has kept my expression good as I get an
-            opportunity to see the enthusiasm the students pose to learn new
-            stuff and whats even better, is that the people inducted in the club
-            are even more enthusiastic to give away what they know in the best
-            way possible. My aspirations from the club include creating a
-            dynamic environment for the interest of computer science and its
-            applications in the campus, including development and designing
-            which is working high in the sky, so that the students excel in
-            their fields of interest, and put their ideas into reality. I wish
-            the organization all the very best. It makes me honored to be
-            associated with a club of such kind.
-          </p>
-          <h2 className="text-xl mt-6 mb-3 px-10">- Dinesh Prabhakar</h2>
-          <h4 className="pl-12">Prof. In-Charge, Information Technology</h4>
-        </div>
         <div className="mt-12 mb-6 sm:mt-8 sm:mb-4">
-          <BottomGlitter text="About HnCC" />
+          <BottomGlitter text="About Codebase" />
           <div className="mt-6">
             <p className="text-lg">
               Codebase Club is the official coding and development club of the institution, founded with the vision of fostering a collaborative coding culture among students. Over time, the club has grown both in strength and scope, expanding into diverse domains and organizing a wide range of technical activities.

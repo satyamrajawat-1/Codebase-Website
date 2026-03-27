@@ -68,11 +68,11 @@ function Events() {
         <title>Our Events</title>
         <meta
           name="description"
-          content="Event Information of HnCC (Hackathon & Coding Club), BIT Sindri, Dhanbad"
+          content="Event Information of Codebase (Hackathon & Coding Club), IIIT Kota, Rajasthan"
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Events of HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
+          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, Codebase, Events of Codebase, Hackathon & Coding Club, IIIT Kota, Rajasthan"
         />
       </Head>
       <div>
