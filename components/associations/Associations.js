@@ -3,10 +3,10 @@ function Associations() {
     <section className="container-70">
       <div className="my-12 mb-16 sm:my-6 sm:mb-10" />
       {/* <div className={Styles.associationContainer}> */}
-        {/* <div className={Styles.associationMenuContainer}> */}
-          {/* <div className={Styles.associationMenu}> */}
-            {/* <div className={Styles.associationMenuItem}> */}
-              {/* <a href="#gdsc">
+      {/* <div className={Styles.associationMenuContainer}> */}
+      {/* <div className={Styles.associationMenu}> */}
+      {/* <div className={Styles.associationMenuItem}> */}
+      {/* <a href="#gdsc">
                 <Image
                   className={Styles.associationImage}
                   height="100%"
@@ -15,9 +15,9 @@ function Associations() {
                   alt="Google Developers Student Clubs, BIT Sindri"
                 />
               </a> */}
-            {/* </div> */}
-            {/* <div className={Styles.associationMenuItem}> */}
-              {/* <a href="#gfg">
+      {/* </div> */}
+      {/* <div className={Styles.associationMenuItem}> */}
+      {/* <a href="#gfg">
                 <Image
                   className={Styles.associationImage}
                   height="100%"
@@ -26,9 +26,9 @@ function Associations() {
                   alt="GeeksForGeeks Student Chapter, BIT Sindri"
                 />
               </a> */}
-            {/* </div> */}
-            {/* <div className={Styles.associationMenuItem}> */}
-              {/* <a href="#codechef">
+      {/* </div> */}
+      {/* <div className={Styles.associationMenuItem}> */}
+      {/* <a href="#codechef">
                 <Image
                   className={Styles.associationImage}
                   height="100%"
@@ -36,12 +36,12 @@ function Associations() {
                   src="/sponsors/codechef.jpg"
                   alt="Codechef Student Chapter, BIT Sindri"
                 /> */}
-              {/* </a> */}
-            {/* </div> */}
-          {/* </div> */}
-        {/* </div>
+      {/* </a> */}
+      {/* </div> */}
+      {/* </div> */}
+      {/* </div>
         <div className={Styles.associationContentContainer}> */}
-          {/* <Content id="gdsc">
+      {/* <Content id="gdsc">
             <h2>Google Developer Student Club, BIT Sindri</h2>
             <p>
               Developer Student Club BITS is inspired by the Google
@@ -49,7 +49,7 @@ function Associations() {
               of Developers in and around the Campus. And having fun doing it.
             </p>
           </Content> */}
-          {/* <Content id="gfg">
+      {/* <Content id="gfg">
             <h2>GeeksforGeeks Student Chapter, BIT Sindri</h2>
             <p>
               GeeksforGeeks Student Chapters are university based community
@@ -60,7 +60,7 @@ function Associations() {
               businesses and their community.
             </p>
           </Content> */}
-          {/* <Content id="codechef">
+      {/* <Content id="codechef">
             <h2>Codechef Chapter, BIT Sindri</h2>
             <p>
               CodeChef BIT Sindri Chapter, want to enhance the coding culture in
@@ -71,11 +71,10 @@ function Associations() {
               the fun of it.
             </p>
           </Content> */}
-        {/* /* </div>
+      {/* /* </div>
        </div> */}
-    </section> 
+    </section>
   );
 }
 
 export default Associations;
-

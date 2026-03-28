@@ -10,10 +10,7 @@ function Teams() {
     <Screen>
       <Head>
         <title>Our Amazing Team ✨</title>
-        <meta
-          name="description"
-          content="Codebase club, IIIT KOTA"
-        />
+        <meta name="description" content="Codebase club, IIIT KOTA" />
         <meta
           name="keywords"
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, Codebase, Team of Codebase, Hackathon & Coding Club, IIIT KOTA"

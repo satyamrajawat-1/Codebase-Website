@@ -5,7 +5,6 @@ const ICON_SIZE = 36;
 function SocialsBar() {
   return (
     <section className={Styles.socialsBar}>
-      
       <a
         href="https://www.instagram.com/iiitkota_codebase?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
         target="_blank"
