@@ -1,10 +1,8 @@
 /* eslint-disable no-alert */
 import React, { useEffect, useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
-import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
-import Logo from '../../assets/christmas_theme/christmas-theme-logo.png';
 import Button from '../button/Button';
 import Sidebar from './Sidebar';
 
@@ -61,10 +59,19 @@ function Navbar() {
       <div>
         <Link href="/">
           <a className="flex items-center">
-            <Image src={Logo} alt="HnCC" height="60px" width="60px" />
-            <h2 id="hnccTitle" className={styles.navTitle}>
-              Codebase
-            </h2>
+<img 
+  src="https://cdn.iiitkota.ac.in/site/clubs/codebase.webp"
+  alt="Codebase"
+  height="40px"
+  width="40px"
+  style={{ borderRadius: "50%" }}
+/>
+<h2 
+  id="hnccTitle"  
+  className={`${styles.navTitle} !text-3xl ml-1.5 font-semibold`}
+>
+  Codebase
+</h2>
           </a>
         </Link>
       </div>
@@ -86,7 +93,7 @@ function Navbar() {
           <a className={styles.navLink}>CONTACT US</a>
         </Link> */}
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfdUNFQFgNsVL0bTEqHksGHCm3BXGyiOyjyTycg2hfFZ9qlPg/viewform"
+          href="https://master--iiitkota-codebase.netlify.app/"
           target="_blank"
           className="flex rounded-full"
           rel="noreferrer"
