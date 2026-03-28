@@ -10,13 +10,10 @@ function Teams() {
     <Screen>
       <Head>
         <title>Our Amazing Team ✨</title>
-        <meta
-          name="description"
-          content="Teams of HnCC (Hackathon & Coding Club), BIT Sindri, Dhanbad"
-        />
+        <meta name="description" content="Codebase club, IIIT KOTA" />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Team of HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
+          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, Codebase, Team of Codebase, Hackathon & Coding Club, IIIT KOTA"
         />
       </Head>
       <section className="mt-16 mb-12 container-70">

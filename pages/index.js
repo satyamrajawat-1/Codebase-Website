@@ -14,14 +14,14 @@ export default function Home() {
     <Screen>
       <Notice />
       <Head>
-        <title>HnCC - Hackathon & Coding Club, BIT Sindri</title>
+        <title>Codebase - Hackathon & Coding Club, IIIT KOTA</title>
         <meta
           name="description"
-          content="HnCC or Hackathon and Coding Club is the official club of BIT Sindri that has the motto to instill a coding culture, collaborate, and arrange events relevant to Open Source, Graphics and Game Development, Web Development, App Development, and many other topics."
+          content="Codebase is the official club of IIIT KOTA that has the motto to instill a coding culture, collaborate, and arrange events relevant to Open Source, Graphics and Game Development, Web Development, App Development, and many other topics."
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
+          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, Codebase, Hackathon & Coding Club, IIIT KOTA"
         />
       </Head>
       <Video />

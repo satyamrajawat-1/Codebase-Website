@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import SponsorsData from '../../lib/data/SponsorsData';
-import BottomGlitter from '../StyledText/BottomGlitter';
 import Styles from './sponsors.module.css';
 
 function Sponsors() {
@@ -23,7 +22,7 @@ function Sponsors() {
   }, []);
   return (
     <section ref={ref} className="container-70 my-16 py-16 fadeonscroll">
-      <BottomGlitter text="Our Sponsors" />
+      {/* <BottomGlitter text="Our Sponsors" /> */}
       <div className={Styles.sponsorsContainer}>
         {SponsorsData.map((src, index) => {
           return (

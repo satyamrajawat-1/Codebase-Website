@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Styles from './SocialsBar.module.css';
 
 const ICON_SIZE = 36;
@@ -6,14 +6,7 @@ function SocialsBar() {
   return (
     <section className={Styles.socialsBar}>
       <a
-        href="https://www.facebook.com/hnccbits/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FaFacebook className={Styles.socialsBarIcons} size={ICON_SIZE} />
-      </a>
-      <a
-        href="https://www.instagram.com/hnccbits/"
+        href="https://www.instagram.com/iiitkota_codebase?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
         target="_blank"
         rel="noreferrer"
       >
@@ -23,7 +16,7 @@ function SocialsBar() {
         <FaGithub className={Styles.socialsBarIcons} size={ICON_SIZE} />
       </a>
       <a
-        href="https://www.linkedin.com/company/hnccbits/"
+        href="https://www.linkedin.com/company/codebase-iiitkota/?originalSubdomain=in"
         target="_blank"
         rel="noreferrer"
       >

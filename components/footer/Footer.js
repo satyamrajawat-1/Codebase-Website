@@ -1,5 +1,7 @@
+import Link from 'next/link';
 import BottomGlitter from '../StyledText/BottomGlitter';
 import Styles from './Footer.module.css';
+
 
 function Footer() {
   return (
@@ -14,17 +16,57 @@ function Footer() {
           <div className="mb-3 flex flex-col">
             <h3 className="text-2xl">Write</h3>
             <h4 className="text-lg font-extralight">
-              <a href="mailto:codebase@gmail.com">codebase@gmail.com</a>
+              <a href="mailto:codebaseiiitkota@hmail.com">
+                codebaseiiitkota@hmail.com
+              </a>
             </h4>
           </div>
           <div className="my-3 flex flex-col">
             <h3 className="text-2xl">Meet</h3>
             <h4 className="text-lg font-extralight">
-              IIIT Kota, Rajasthan <br />
-              Kota-325003 <br />
+              IIIT KOTA <br />
+              Kota,325003 <br />
               Rajasthan, India
             </h4>
           </div>
+        </div>
+        <div className="flex-4 md:flex-1 md:mx-4 sm:mx-0 sm:mt-8">
+          <h3 className="text-2xl">Other Pages</h3>
+          <Link href="/events">
+            <a className="pl-1 block text-lg my-1 font-extralight">Events</a>
+          </Link>
+          <a
+            className="pl-1 block text-lg my-1 font-extralight"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Blog
+          </a>
+          <a
+            className="block pl-1 text-lg my-1 font-extralight"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IIIT KOTA
+          </a>
+        </div>
+        <div className="flex-4 md:flex-1 sm:mt-8">
+          <h3 className="text-2xl">Get Help</h3>
+          <a
+            className="block pl-1 text-lg my-1 font-extralight"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Join Us
+          </a>
+          {/* <Link href="/faqs">
+            <a className="block pl-1 text-lg my-1 font-extralight">FAQs</a>
+          </Link> */}
+          <Link href="/contact">
+            <a className="pl-1 block text-lg my-1 font-extralight">
+              Contact Us
+            </a>
+          </Link>
         </div>
       </div>
 
@@ -35,7 +77,8 @@ function Footer() {
         </h6>
 
         <h6 className="flex items-center">
-          Crafted with&nbsp;<span className="text-2xl">♥</span>&nbsp;by Satyam and Shyam.
+          Crafted with&nbsp;<span className="text-2xl">♥</span>&nbsp;by Shyam
+          Faujdaar(Web dev lead) and Satyam Rajawat(Wen dev lead) Codebase club
         </h6>
       </div>
     </footer>

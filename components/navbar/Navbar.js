@@ -63,7 +63,7 @@ function Navbar() {
           <a className="flex items-center">
             <Image src={Logo} alt="HnCC" height="60px" width="60px" />
             <h2 id="hnccTitle" className={styles.navTitle}>
-              Hackathon and Coding Club
+              Codebase
             </h2>
           </a>
         </Link>
@@ -81,9 +81,10 @@ function Navbar() {
         <Link href="/events">
           <a className={styles.navLink}>EVENTS</a>
         </Link>
-        <Link href="/contact">
+
+        {/* <Link href="/contact">
           <a className={styles.navLink}>CONTACT US</a>
-        </Link>
+        </Link> */}
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfdUNFQFgNsVL0bTEqHksGHCm3BXGyiOyjyTycg2hfFZ9qlPg/viewform"
           target="_blank"
