@@ -22,7 +22,11 @@ function About() {
           <BottomGlitter text="About Codebase" />
           <div className="mt-6">
             <p className="text-lg">
-              Codebase Club is the official coding and development club of the institution, founded with the vision of fostering a collaborative coding culture among students. Over time, the club has grown both in strength and scope, expanding into diverse domains and organizing a wide range of technical activities.
+              Codebase Club is the official coding and development club of the
+              institution, founded with the vision of fostering a collaborative
+              coding culture among students. Over time, the club has grown both
+              in strength and scope, expanding into diverse domains and
+              organizing a wide range of technical activities.
             </p>
           </div>
         </div>
@@ -31,18 +35,21 @@ function About() {
           <div className="mt-6">
             <p className="text-lg">
               We organize a national level hackathon, Hackatron every year. The
-              first version of this hackathon was held in Date month
-              year. Checkout more at{' '}
-              <a
-                className="text-blue"
-                href=""
-              >
+              first version of this hackathon was held in Date month year.
+              Checkout more at{' '}
+              <a className="text-blue" href="">
                 website link
               </a>
               <br />
-              Organize sessions and workshops on various technology stacks including Development, Open Source, and more.<br />Host coding competitions and technical events throughout the year, including during Techfest.<br />
-              Build real-world projects aimed at solving practical problems. Check out our work on GitHub. See more about our coding
-              culture at our official site{' '}
+              Organize sessions and workshops on various technology stacks
+              including Development, Open Source, and more.
+              <br />
+              Host coding competitions and technical events throughout the year,
+              including during Techfest.
+              <br />
+              Build real-world projects aimed at solving practical problems.
+              Check out our work on GitHub. See more about our coding culture at
+              our official site{' '}
               <a className="text-blue" href="">
                 websitelink
               </a>{' '}

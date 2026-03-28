@@ -2,7 +2,6 @@ import Link from 'next/link';
 import BottomGlitter from '../StyledText/BottomGlitter';
 import Styles from './Footer.module.css';
 
-
 function Footer() {
   return (
     <footer className={`${Styles.footer} container-70`}>
@@ -72,8 +71,7 @@ function Footer() {
 
       <div className={Styles.copyrightBottom}>
         <h6>
-          © {new Date().getFullYear()} Codebase Club. All rights
-          reserved.
+          © {new Date().getFullYear()} Codebase Club. All rights reserved.
         </h6>
 
         <h6 className="flex items-center">
