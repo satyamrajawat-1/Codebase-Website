@@ -5,7 +5,6 @@ import Associations from '../components/associations/Associations';
 import GridGallery from '../components/gridGallery/GridGallery';
 import HomeAbout from '../components/homeAbout/HomeAbout';
 import Screen from '../components/screen/Screen';
-import Sponsors from '../components/sponsors/Sponsors';
 import TechStack from '../components/techStack/TechStack';
 import Video from '../components/video/Video';
 
@@ -28,7 +27,6 @@ export default function Home() {
       <HomeAbout />
       <TechStack />
       <GridGallery />
-      <Sponsors />
       <Associations />
     </Screen>
   );
