@@ -180,7 +180,7 @@ function Code() {
         <div className={Styles.headDescription}>
           Being Coding Club of a technical institution, we do pretty much
           everything and anything related to coding. Coding events, Workshops,
-          Hackathons (48 hours non stop coding), contests are just to name a
+          Hackathons (24 hours non stop coding), contests are just to name a
           few. We believe in coding our problems away.
         </div>
         <div className={Styles.contentContainer}>

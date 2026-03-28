@@ -79,9 +79,9 @@ function Navbar() {
         <Link href="/about">
           <a className={styles.navLink}>ABOUT US</a>
         </Link>
-        <Link href="/teams">
+        {/* <Link href="/teams">
           <a className={styles.navLink}>TEAM</a>
-        </Link>
+        </Link> */}
         <Link href="/alumni">
           <a className={styles.navLink}>ALUMNI</a>
         </Link>

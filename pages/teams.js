@@ -3,7 +3,7 @@ import BottomGlitter from '@/components/StyledText/BottomGlitter';
 import Screen from '../components/screen/Screen';
 import TeamCard from '../components/teams/TeamCard';
 import Styles from '../components/teams/Team.module.css';
-import { TeamData2k20, TeamData2k21, TeamData2k22 } from '../lib/data/TeamData';
+import {TeamData2k21, TeamData2k22 } from '../lib/data/TeamData';
 
 function Teams() {
   return (
@@ -25,22 +25,6 @@ function Teams() {
             <br />- Phil Jackson
           </h3>
         </div>
-        <h2 className={Styles.postHead}>Board Of Directors</h2>
-        <div className={Styles.cardContainer}>
-          {TeamData2k20.map((item, index) => {
-            return (
-              <TeamCard
-                key={`${String(index)}-team`}
-                name={item.name}
-                title={item.title}
-                imageSrc={`/teams/2k20/${item.imageSrc}.jpg`}
-                lazyImageSrc={`/teams/2k20/lazy/${item.imageSrc}-min.jpg`}
-                socials={item.socials}
-              />
-            );
-          })}
-        </div>
-
         <h2 className={Styles.postHead}>Post Bearers</h2>
         <div className={Styles.cardContainer}>
           {TeamData2k21.slice(0, 11).map((item, index) => {
@@ -60,22 +44,6 @@ function Teams() {
         <h2 className={Styles.postHead}>Technical Head</h2>
         <div className={`${Styles.cardContainer}`}>
           {TeamData2k21.slice(11, 19).map((item, index) => {
-            return (
-              <TeamCard
-                key={`${String(index)}-team`}
-                name={item.name}
-                title={item.title}
-                imageSrc={`/teams/2k21/${item.imageSrc}.jpg`}
-                lazyImageSrc={`/teams/2k21/lazy/${item.imageSrc}-min.jpg`}
-                socials={item.socials}
-              />
-            );
-          })}
-        </div>
-
-        <h2 className={Styles.postHead}>Event Manager</h2>
-        <div className={`${Styles.cardContainer}`}>
-          {TeamData2k21.slice(19, 26).map((item, index) => {
             return (
               <TeamCard
                 key={`${String(index)}-team`}
