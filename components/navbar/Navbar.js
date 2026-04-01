@@ -82,6 +82,9 @@ function Navbar() {
         <Link href="/alumni">
           <a className={styles.navLink}>ALUMNI</a>
         </Link>
+        <Link href="/teams">
+          <a className={styles.navLink}>TEAM</a>
+        </Link>
         <Link href="/events">
           <a className={styles.navLink}>EVENTS</a>
         </Link>

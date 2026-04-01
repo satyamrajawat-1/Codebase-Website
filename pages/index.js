@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import Notice from '@/components/Notice';
 import Head from 'next/head';
-import Associations from '../components/associations/Associations';
 import GridGallery from '../components/gridGallery/GridGallery';
 import HomeAbout from '../components/homeAbout/HomeAbout';
 import Screen from '../components/screen/Screen';
@@ -27,7 +26,6 @@ export default function Home() {
       <HomeAbout />
       <TechStack />
       <GridGallery />
-      <Associations />
     </Screen>
   );
 }
