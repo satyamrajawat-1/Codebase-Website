@@ -47,6 +47,7 @@ function GridGallery() {
         {GalleryImages.map((item, index) => {
           return (
             <GridImage
+            // eslint-disable-next-line react/no-array-index-key
               key={String(index)}
               src={item.src}
               mobileSrc={item.mobileSrc}
