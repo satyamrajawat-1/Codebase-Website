@@ -33,8 +33,8 @@ function Teams() {
                 key={`${String(index)}-team`}
                 name={item.name}
                 title={item.title}
-                imageSrc={`/teams/2k21/${item.imageSrc}.jpg`}
-                lazyImageSrc={`/teams/2k21/lazy/${item.imageSrc}-min.jpg`}
+                imageSrc={`/teams/2k23/${item.imageSrc}.jpeg`}
+                lazyImageSrc={`/teams/2k23/lazy/${item.imageSrc}-min.jpeg`}
                 socials={item.socials}
               />
             );
@@ -49,8 +49,8 @@ function Teams() {
                 key={`${String(index)}-team`}
                 name={item.name}
                 title={item.title}
-                imageSrc={`/teams/2k22/${item.imageSrc}.jpg`}
-                lazyImageSrc={`/teams/2k22/lazy/${item.imageSrc}-min.jpg`}
+                imageSrc={`/teams/2k24/${item.imageSrc}.jpeg`}
+                lazyImageSrc={`/teams/2k24/lazy/${item.imageSrc}-min.jpeg`}
                 socials={item.socials}
               />
             );
