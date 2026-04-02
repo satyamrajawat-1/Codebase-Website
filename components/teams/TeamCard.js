@@ -18,6 +18,7 @@ function TeamCard({ name, title, company, socials, imageSrc, lazyImageSrc }) {
           quality={100}
           placeholder="blur"
           blurDataURL={lazyImageSrc}
+          
         />
       </div>
       <div className="z-10 text-center my-5">
