@@ -4,7 +4,7 @@ import { CgClose } from 'react-icons/cg';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Hamburger.module.css';
-import Logo from '../../assets/christmas_theme/christmas-theme-logo.png';
+import codebase from '../../public/codebase.png';
 import Button from '../button/Button';
 
 const SpanStyle = {
@@ -65,7 +65,7 @@ function Sidebar({ isMounted, unmount }) {
         <div>
           <Link href="/">
             <a className="flex items-center" onClick={unmount}>
-              <Image src={Logo} alt="HnCC" height="60px" width="60px" />
+              <Image src={codebase} alt="Codebase" height="60px" width="60px" />
             </a>
           </Link>
         </div>
@@ -98,11 +98,6 @@ function Sidebar({ isMounted, unmount }) {
         <Link href="/events">
           <a className={styles.navLink} onClick={unmount}>
             Events
-          </a>
-        </Link>
-        <Link href="/faqs">
-          <a className={styles.navLink} onClick={unmount}>
-            FAQs
           </a>
         </Link>
         <a
